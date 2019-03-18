@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.css">
 </head>
 <body>
 <div class="header">
@@ -25,8 +27,78 @@
     </div>
 </div>
 <div class="content">
-    <div class="content-left"></div>
-    <div class="content-right"></div>
+    <div class="content-left">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="https://up.enterdesk.com/edpic_source/9e/0e/e0/9e0ee081d361378367a925a2768dc2d0.jpg"
+                         alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://up.enterdesk.com/edpic_source/f7/8a/4e/f78a4ef4180e3d9cd92a2eaf68b5e9fd.jpg"
+                         alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://up.enterdesk.com/edpic_source/58/0e/48/580e48005d968ca9912874d1d874fe37.jpg"
+                         alt="">
+                </div>
+            </div>
+            <!-- 如果需要分页器 -->
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="section">
+            <div class="icon">
+                <img src="https://up.enterdesk.com/edpic_source/49/c5/66/49c56638cfdefc68074b6c19b55aa961.jpg" alt="">
+            </div>
+            <div class="article">
+                <span class="title">我倒是要来看看，在</span>
+                <span class="description">“我倒是要来看看，到底什么人敢无，要卖丹药的途径实在是太多了。现在网络上网店也很火，他小心一点，也不至于被欺负到差点破产。 人类</span>
+                <div class="info">
+                    <span class="tags">吃饭 睡觉 打豆豆</span>
+                    <span class="date">2019-03-18</span>
+                    <span class="comment">评论</span>
+                    <span class="views">浏览</span>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="icon">
+                <img src="https://up.enterdesk.com/edpic_source/49/c5/66/49c56638cfdefc68074b6c19b55aa961.jpg" alt="">
+            </div>
+            <div class="article">
+                <span class="title">我倒是要来看看，在</span>
+                <span class="description">“我倒是要来看看，到底什么人敢无，要卖丹药的途径实在是太多了。现在网络上网店也很火，他小心一点，也不至于被欺负到差点破产。 人类</span>
+                <div class="info">
+                    <span class="tags">吃饭 睡觉 打豆豆</span>
+                    <span class="date">2019-03-18</span>
+                    <span class="comment">评论</span>
+                    <span class="views">浏览</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content-right">
+        <div class="album">
+            <div>
+                <img src="https://up.enterdesk.com/edpic_source/37/b2/a8/37b2a8d11af7bc3e86451bfc762e6e9e.jpg" alt="">
+            </div>
+            <div>
+                <img src="https://up.enterdesk.com/edpic_source/0e/85/8a/0e858ac0a86dbf5a9c408d885a94c94f.jpg" alt="">
+            </div>
+        </div>
+
+    </div>
 </div>
+<script>
+    var mySwiper = new Swiper('.swiper-container', {
+        direction: 'horizontal', // 垂直切换选项
+        loop: true, // 循环模式选项
+        autoplay: true,
+        // 如果需要分页器
+        pagination: {
+            el: '.swiper-pagination',
+        },
+    })
+</script>
 </body>
 </html>
