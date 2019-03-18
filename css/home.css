@@ -1,0 +1,152 @@
+body {
+    background-color: #eef1f0;
+}
+
+header {
+    width: 100%;
+    height: 65px;
+    background-color: #fff;
+    position: fixed;
+    z-index: 1000;
+}
+
+header nav {
+    width: 960px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    font-size: 0;
+}
+
+.logo {
+    float: left;
+}
+
+nav ul {
+    float: left;
+    margin: 0 0 0 50px;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+nav li {
+    float: left;
+    line-height: 65px;
+    text-decoration: none;
+}
+
+nav li a {
+    display: block;
+    color: #444444;
+    text-align: center;
+    font-family: "Microsoft Yahei";
+    font-size: 13px;
+    padding: 0 16px;
+    text-decoration: none;
+    transition: color 0.15s ease 0s;
+}
+
+nav li a:hover {
+    color: #71a866;
+}
+
+
+main {
+    padding-top: 65px;
+    width: 960px;
+    margin: 0 auto;
+}
+
+main article {
+    float: left;
+    width: 660px;
+    height: 100%;
+}
+
+main aside {
+    float: right;
+    width: 280px;
+    height: 100%;
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+    background-color: #fff;
+}
+
+article .swipe {
+    width: 100%;
+    height: 380px;
+    padding-top: 30px;
+}
+
+aside .album {
+    padding-top: 30px;
+    width: 100%;
+    height: 380px;
+}
+
+.swiper-container {
+    width: 660px;
+    height: 350px;
+    border-radius: 5px;
+}
+
+.swiper-container img {
+    width: 100%;
+}
+
+.album .album-container {
+    width: 280px;
+    height: 163px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.album .album-container img {
+    width: 100%;
+    height: 100%;
+}
+
+main .content {
+}
+
+article .list {
+    padding-top: 24px;
+    width: 100%;
+    height: 152px;
+    padding-bottom: 42px;
+    background-color: #fff9c0;
+}
+
+.list .list-left {
+    width: 235px;
+    height: 152px;
+    display: block;
+}
+
+.list-left img {
+    width: 100%;
+    height: 100%;
+}
+
+.list-left, .list-right{
+    float: left;
+}
+
+.list-title{
+    display: block;
+}
+
+.list-description{
+    display: block;
+}
