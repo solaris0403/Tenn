@@ -139,14 +139,43 @@ article .list {
     height: 100%;
 }
 
-.list-left, .list-right{
+.list-left{
     float: left;
 }
 
+.list-right{
+    float: right;
+    position: relative;
+    width: 410px;
+    background-color: #ff0000;
+    height: 100%;
+}
+
 .list-title{
+    margin-top: 3px;
     display: block;
 }
 
 .list-description{
     display: block;
+}
+
+.list-bottom{
+    position: absolute;
+    bottom: 3px;
+}
+
+footer .footer-content{
+    width: 960px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #4f94cd;
+}
+
+footer .footer-left{
+    float: left;
+}
+
+footer .footer-right{
+    float: right;
 }
