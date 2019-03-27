@@ -7,7 +7,6 @@ html, body {
     background-color: #efefef;
 }
 
-
 header {
     width: 100%;
     height: 65px;
@@ -59,21 +58,26 @@ a {
     font-size: 0;
 }
 
+/*中间部分*/
 #content {
     width: 960px;
     margin: 0 auto;
-    z-index: 1;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
+/*首页banner*/
 #banner {
     width: 100%;
     background-color: #f0f;
 }
 
+/*左边内容*/
 main {
     width: 660px;
 }
 
+/*右边内容*/
 aside {
     width: 280px;
 }
@@ -86,6 +90,7 @@ aside {
     float: right;
 }
 
+/*首页文章item========================*/
 .post-box {
     border-top: 1px dashed #dbdedd;
 }
@@ -178,6 +183,18 @@ aside {
     font-size: 12px;
 }
 
+/*========================*/
+
+/*侧边=================================>>*/
+.aside-talk{
+    width: 220px;
+    background: #f00 url(../img/paper.png) 0 0 no-repeat;
+    height: 50px;
+    background-size: 100%;
+}
+
+
+
 .aside-lasted-articles {
     width: 100%;
     margin: 8px 0;
@@ -218,7 +235,9 @@ aside {
     border-top: 1px solid black;
 }
 
+/*==================================<<*/
 
+/*底部=============================>>*/
 #footer {
     border-top: 1px solid #eeeeee;
     width: 100%;
@@ -263,7 +282,6 @@ footer .footer-link a {
     padding-left: 20px;
 }
 
-
 footer .footer-signature {
     position: absolute;
     bottom: 4px;
@@ -286,22 +304,68 @@ footer .footer-copyright {
     line-height: 21px;
 }
 
+/*=============================<<*/
+
 /*文章*/
 .post-content_box {
     width: 100%;
+    font-family: "微软雅黑", "Microsoft YaHei", "WenQuanYi Micro Hei";
+    font-size: 14px;
+    overflow: hidden;
 }
 
-.post-content_box img{
+.post-content_box img {
     max-width: 100%;
-    margin: 15px auto;
+    margin: 4px auto;
+    display: block;
 }
 
-.post-content_box p{
+.post-content_box p {
+    overflow: hidden;
+    line-height: 24px;
+    word-wrap: break-word;
+    padding: 6px 0;
 }
 
-.post-content-info{
+.post-content_box {
+    /*background: #ECF6F3;*/
+    /*margin: 0 25px 15px 25px;*/
+    /*padding: 0 25px 0 10px;*/
+    /*border: 5px solid #e9e3d1;*/
+}
+
+.post-info {
     width: 100%;
     background-color: #ffffff;
     height: 64px;
     margin: 15px auto;
+    position: relative;
 }
+
+.post-info .post-author-avatar {
+    width: 48px;
+    height: 48px;
+    background-color: #f00;
+    position: absolute;
+    left: 8px;
+    top: 8px;
+}
+
+.post-info .img-author-avatar {
+    width: 100%;
+    height: 100%;
+}
+
+.post-author {
+    position: absolute;
+    left: 64px;
+    top: 8px;
+}
+
+.post-social {
+    position: absolute;
+    left: 64px;
+    bottom: 8px;
+}
+
+/*================================<<*/
